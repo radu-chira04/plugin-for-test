@@ -52,4 +52,9 @@ class ContentController extends Controller
 
         return $twig->render('TopItems::content.TopItems', $templateData);
     }
+
+    public function sayHello(Twig $twig):string
+    {
+        return $twig->render('TopItems::content.TestHellow');
+    }
 }
