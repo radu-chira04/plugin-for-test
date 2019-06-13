@@ -57,4 +57,11 @@ class ContentController extends Controller
     {
         return $twig->render('TopItems::content.TestHellow');
     }
+
+    public function displayArray():array
+    {
+        return [1 => 'a', 2 => 'b', 3 => 'c'];
+    }
+
+
 }

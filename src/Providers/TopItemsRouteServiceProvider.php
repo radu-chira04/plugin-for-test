@@ -11,5 +11,6 @@ class TopItemsRouteServiceProvider extends RouteServiceProvider
     {
         $router->get('topitems', 'TopItems\Controllers\ContentController@showTopItems');
         $router->get('hellow', 'TopItems\Controllers\ContentController@sayHello');
+        $router->get('hrr', 'TopItems\Controllers\ContentController@displayArray');
     }
 }
