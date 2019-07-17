@@ -1,12 +1,8 @@
 <?php
 
-//namespace TopItems\Crons;
+namespace TopItems\Crons;
 
-//use Plenty\Modules\Cron\Contracts\CronHandler;
-
-
-die("\n\nhere\n\n");
-
+use Plenty\Modules\Cron\Contracts\CronHandler;
 
 class TestCron extends CronHandler
 {
