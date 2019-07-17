@@ -1,17 +1,19 @@
 <?php
 
-namespace TopItems\Crons;
+//namespace TopItems\Crons;
 
-use Plenty\Modules\Cron\Contracts\CronHandler;
-use Plenty\Plugin\Log\Loggable;
+//use Plenty\Modules\Cron\Contracts\CronHandler;
+
+
+die("\n\nhere\n\n");
+
 
 class TestCron extends CronHandler
 {
-    use Loggable;
 
     public function handle()
     {
-        echo "here test \n\n";
+        echo "\n here test \n\n";
         return;
     }
 }
