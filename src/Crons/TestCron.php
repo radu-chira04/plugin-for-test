@@ -12,5 +12,6 @@ class TestCron extends CronHandler
     public function handle()
     {
         echo "here test \n\n";
+        return;
     }
 }
